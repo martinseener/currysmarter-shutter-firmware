@@ -110,7 +110,7 @@ print("== unreachable firmware server is caught before flashing")
 port += 1
 p = fake(port, "vendor13")
 try:
-    cmd = [sys.executable, SCRIPT, "upgrade", "127.0.0.1:%d" % port, "--server-ip", "127.0.0.9", "--port", "18000", "--yes"]
+    cmd = [sys.executable, SCRIPT, "upgrade", "127.0.0.1:%d" % port, "--server-ip", "192.0.2.1", "--port", "18000", "--yes"]
     r = subprocess.run(cmd, capture_output=True, text=True, timeout=120)
     s = state(port)
     check("exit code != 0", r.returncode != 0)
