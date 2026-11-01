@@ -11,7 +11,7 @@ python3 currysmarter-upgrade.py check   192.168.1.50      # read-only
 python3 currysmarter-upgrade.py upgrade 192.168.1.50      # ~5-8 min per shutter
 ```
 
-Background story: [Upgrading Currysmarter Roller Shutters to Tasmota 16 - and Why They Moved on Their Own](https://www.sysorchestra.com/upgrading-currysmarter-roller-shutters-to-tasmota-16/) · Setup of these shutters with Home Assistant: [Setting Up Currysmarter Tasmota Roller Shutters with Home Assistant](https://www.sysorchestra.com/setting-up-currysmarter-tasmota-roller-shutters-with-home-assistant/)
+Background story: [Upgrading Currysmarter Roller Shutters to Tasmota 16 - Stopping Phantom Moves and Flash Wear](https://www.sysorchestra.com/upgrading-currysmarter-roller-shutters-to-tasmota-16/) · Setup of these shutters with Home Assistant: [Setting Up Currysmarter Tasmota Roller Shutters with Home Assistant](https://www.sysorchestra.com/setting-up-currysmarter-tasmota-roller-shutters-with-home-assistant/)
 
 > [!WARNING]
 > Flashing firmware is at your own risk. The procedure keeps the old app until the new one is verified, and the safeboot partition stays usable as a fallback. Still, a power loss while the safeboot itself is being rewritten (a few seconds in step 3) can leave the device needing a serial flash. I also do NOT take responsibility by using the update script or custom firmware although I've tested and use the custom firmware on 12 of my devices.
