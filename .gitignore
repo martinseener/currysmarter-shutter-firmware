@@ -1,0 +1,6 @@
+# config backups contain WiFi/MQTT passwords
+backups/
+# build/build.sh work directory (Tasmota checkout, PlatformIO)
+.build/
+__pycache__/
+.DS_Store

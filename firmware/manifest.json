@@ -1,0 +1,30 @@
+{
+  "_comment": "Checked by currysmarter-upgrade.py before serving. Stock files: github.com/arendst/Tasmota/releases/tag/v16.0.0",
+  "tasmota": "v16.0.0",
+  "berry_driver": "1.1.0-b65ea326",
+  "app": {
+    "custom": "tasmota32c3-currysmarter.bin",
+    "stock": "tasmota32c3.bin"
+  },
+  "safeboot": "tasmota32c3-safeboot.bin",
+  "files": {
+    "tasmota32c3-currysmarter.bin": {
+      "version": "16.0.0",
+      "image": "currysmarter",
+      "sha256": "e0f0b7d948765bd87c52a719bc038b62869adce9194a5fae7d4e9beea3c795b3",
+      "source": "build/build.sh (stock v16.0.0 + build/xdrv_124_curry_installer.ino)"
+    },
+    "tasmota32c3.bin": {
+      "version": "16.0.0",
+      "image": "tasmota32",
+      "sha256": "42be8bc2add07ed845607d26ffd0eea8db8fa3194feb765c271ca1b23d670aba",
+      "source": "https://github.com/arendst/Tasmota/releases/download/v16.0.0/tasmota32c3.bin"
+    },
+    "tasmota32c3-safeboot.bin": {
+      "version": "16.0.0",
+      "image": "safeboot",
+      "sha256": "93a103c9de4f537ce9d99d9e407ded690cf5324ba5b94fc7c789514a4aaae644",
+      "source": "https://github.com/arendst/Tasmota/releases/download/v16.0.0/tasmota32c3-safeboot.bin"
+    }
+  }
+}
